@@ -12,7 +12,7 @@ Classic invocation syntax may also be referred to as curly invocation syntax.
 
 **Angle bracket invocation syntax:**
 ```handlebars
-<SiteHeader @user={{this.user}} @class={{if this.user.isAdmin "admin"}} />
+<SiteHeader @user={{this.user}} class={{if this.user.isAdmin "admin"}} />
 <Content::Welcome @user={{this.user}} />
 ```
 
